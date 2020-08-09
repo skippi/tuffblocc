@@ -12,6 +12,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.world.ExplosionEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.ModClassLoader;
 import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
@@ -20,10 +21,11 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
 
-@Mod(modid = "tuffblocc", name = "tuffblocc", version = "1.0")
+@Mod(modid = "tuffblocc", name = "tuffblocc", version = "1.0", acceptableRemoteVersions = "*")
 public class TuffBloccMod {
   @EventHandler
   public void init(FMLInitializationEvent event) {
+
     MinecraftForge.EVENT_BUS.register(this);
   }
 
