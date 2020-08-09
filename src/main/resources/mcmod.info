@@ -1,0 +1,15 @@
+[
+{
+  "modid": "tuffblocc",
+  "name": "tuffblocc",
+  "description": "Custom explosion mod",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["skippi"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
